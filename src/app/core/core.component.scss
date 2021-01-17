@@ -9,6 +9,15 @@
   margin-left: 200px;
   margin-right: 200px;
   background-color: rgba(255,255,255,.8);
+
+  li {
+    display: inline-block;
+    width: 50%;
+  }
+}
+
+.resume-nav {
+  box-sizing: border-box;
 }
 
 .nav-item {
@@ -19,10 +28,34 @@
 
   a {
     color: #F44336 !important;
+    border-bottom: 2px solid white;
 
     &:hover {
       border-bottom: 2px solid #F44336;
     }
+  }
+}
+
+.nav-footer {
+  h4 {
+    display: inline-block;
+    padding-top: 36px;
+    font-size: 16px;
+    font-family: 'Fraunces', serif;
+    color: gainsboro;
+  }
+  a {
+    display: inline-block;
+    color: rgb(220,220,220) !important;
+    font-size: 18px;
+
+    &:hover {
+      color: #F44336;
+    }
+  }
+
+  img {
+    opacity: 30%;
   }
 }
 
