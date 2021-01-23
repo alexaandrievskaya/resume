@@ -13,6 +13,7 @@ export class HomeComponent implements OnInit {
   random1: Name;
   random2: Name;
 
+
   constructor() { }
 
   ngOnInit(): void {
@@ -22,4 +23,6 @@ export class HomeComponent implements OnInit {
     this.random1 = FIRSTNAME[Math.floor(Math.random() * FIRSTNAME.length)];
     this.random2 = LASTNAME[Math.floor(Math.random() * LASTNAME.length)];
   }
+
+
 }
