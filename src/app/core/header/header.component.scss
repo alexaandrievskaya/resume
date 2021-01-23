@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
+.navbar-brand img {
+  width: 100px;
+  height: 100px;
+}
+
+.navbar {
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: rgba(255,255,255,.8);
+
+  li {
+    display: inline-block;
+    width: 50%;
+  }
+}
+
+.resume-nav {
+  box-sizing: border-box;
+}
+
+.nav-item {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-right: 15px;
+
+  a {
+    color: #F44336 !important;
+    border-bottom: 2px solid transparent;
+
+    &:hover {
+      border-bottom: 2px solid #F44336;
+    }
+  }
+}
