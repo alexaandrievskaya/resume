@@ -1,1 +1,31 @@
-<p>work works!</p>
+<div class="container listing-detail">
+
+  <div class="project-detail page-banner" id="projects-img">
+    <img src="images/icons/worklogo.jpg" alt="">
+    <div class="tint" >
+      <div class="center-wrap">
+        <h1>WORK</h1>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <h2> His work has not been featured in any publications worth bragging about.</h2>
+  </section>
+
+  <section class="row">
+    <div class="col-sm-6" *ngFor="let project of projects">
+      name="{{ project.name }}"
+      displayname="{{ project.displayname }}"
+      number="{{ project.number }}"
+      color="{{ project.color }}"
+      cover="{{ project.cover }}"
+      box="{{ project.box }}"
+      header="{{ project.header }}"
+      description="{{ project.description }}"
+      tech="{{ project.technologies}}">
+    </div>
+  </section>
+</div>
+
+
